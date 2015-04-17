@@ -3,42 +3,29 @@
 
  <head>
 
-<style>
-#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
-</style>
-
   <title></title>
   <script src = "../assets/vendor/jquery-1.11.2.js"></script>
   <script src = "../assets/javascript/global.js"></script>
 
-  <script>
-function allowDrop(ev) {
-    ev.preventDefault();
-}
-
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}
-</script>
-
  </head>
 
  <body>
+  <!--PENCIL CURSOR -->
+	<img id="pencil" src="../assets/images/pencil.png"/>
 
-	<img id="image" src="../assets/images/pencil.png"/>
-
-	<img id="lines" src="../assets/images/lines.png"onmouseover="this.src='../assets/images/linesText.png'" 		onmouseout="this.src='../assets/images/lines.png'" 
+  <!--HOVER OVER -->
+	<img id="line1" src="../assets/images/lines.png"
+  onmouseover="this.src='../assets/images/linesText.png'"
+  onmouseout="this.src='../assets/images/lines.png'" 
 	/>
 
-	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<br>
-<img id="drag1" src="../assets/images/pencil.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+  <!-- TOGGLE HIDE/SHOW -->
+  <div id="textToggler">
+    <img id ="lineHide" src="../assets/images/lines.png" />
+    <img id = "lineShow" src="../assets/images/linesText.png" style="display:none"/>
+  </div>
+
+
 
  </body>
 

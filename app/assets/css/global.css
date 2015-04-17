@@ -1,19 +1,13 @@
-#image{
+#pencil{
 position:absolute;
  margin-top: -250px;
 z-index: 1;
 }
-#lines{
+#line1{
     position: absolute;
         top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
 z-index: 2;
-}
-#box{
-	width:350px;
-		height:70px;
-		padding:10px;
-		border:1px solid #aaaaaa;
 }
