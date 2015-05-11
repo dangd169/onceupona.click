@@ -1,12 +1,20 @@
 @font-face {
 font-family: 'Crazy Thoughts';
-src: url("/fonts/Crazy Thoughts.otf") format("opentype");
+src: 
+	url("Crazy Thoughts.otf") format("opentype"),
+ 	url ("Crazy Thoughts.woff2") format('woff2'),
+ 	url("Crazy Thoughts.woff") format('woff'),
+ 	url("Crazy Thoughts.ttf") format('truetype');
 }
  
 @font-face {
 font-family: 'Crazy Thoughts';
 font-weight: normal;
-src: url("/fonts/Crazy Thoughts.otf") format("opentype");
+src: 
+	url("Crazy Thoughts.otf") format("opentype"),
+ 	url ("Crazy Thoughts.woff2") format('woff2'),
+ 	url("Crazy Thoughts.woff") format('woff'),
+ 	url("Crazy Thoughts.ttf") format('truetype');
 }
 
 body{
