@@ -19,7 +19,7 @@ $(document).ready(function(){
     $('.wave').click(function(){
 
             $('.wave').animate({
-                'height': '80%',
+                'height': '85%',
                 }, 1500);
 
             setTimeout(function(){ $('.wave').animate({
