@@ -1,20 +1,15 @@
 @font-face {
 font-family: 'Crazy Thoughts';
 src: 
+    url("Crazy Thoughts.eot#") format("eot"),
+    url ("Crazy Thoughts.woff2") format('woff2'),
+    url("Crazy Thoughts.woff") format('woff'),
+    url("Crazy Thoughts.ttf") format('truetype'),
 	url("Crazy Thoughts.otf") format("opentype"),
- 	url ("Crazy Thoughts.woff2") format('woff2'),
- 	url("Crazy Thoughts.woff") format('woff'),
- 	url("Crazy Thoughts.ttf") format('truetype');
-}
- 
-@font-face {
-font-family: 'Crazy Thoughts';
-font-weight: normal;
-src: 
-	url("Crazy Thoughts.otf") format("opentype"),
- 	url ("Crazy Thoughts.woff2") format('woff2'),
- 	url("Crazy Thoughts.woff") format('woff'),
- 	url("Crazy Thoughts.ttf") format('truetype');
+    url("Crazy Thoughts.svg#CrazyThoughts") format('svg');
+
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
