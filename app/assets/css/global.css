@@ -42,9 +42,16 @@ and (max-device-width : 568px) {
 
 body{
 
-    margin-top: 100px;
+    margin-top: 110px;
     font-size: 500%;
     width: 100%
+
+}
+
+p{
+
+padding-right: 150px;
+padding-left: 150px;
 
 }
 
