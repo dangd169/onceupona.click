@@ -1,19 +1,18 @@
 @font-face {
-font-family: 'Crazy Thoughts';
-src: 
-    url("Crazy Thoughts.eot#") format("eot"),
-    url ("Crazy Thoughts.woff2") format('woff2'),
-    url("Crazy Thoughts.woff") format('woff'),
-    url("Crazy Thoughts.ttf") format('truetype'),
-	url("Crazy Thoughts.otf") format("opentype"),
-    url("Crazy Thoughts.svg#CrazyThoughts") format('svg');
 
+    font-family: 'crazy_thoughtsregular';
+    src: url('crazy_thoughts-webfont.eot');
+    src: url('crazy_thoughts-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crazy_thoughts-webfont.woff2') format('woff2'),
+         url('crazy_thoughts-webfont.woff') format('woff'),
+         url('crazy_thoughts-webfont.ttf') format('truetype'),
+         url('crazy_thoughts-webfont.svg#crazy_thoughtsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 body{
- 	font-family: "Crazy Thoughts", sans-serif, 'Courier New';
+ 	font-family: "crazy_thoughtsregular";
  	font-size: 325%;
 	line-height: 80%;
     width: 80%;
