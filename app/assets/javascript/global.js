@@ -31,14 +31,16 @@ $(document).ready(function(){
     });
 
     function loop() {
-    $('.wave').animate({'bottom': '80'}, {
+    $('.boat').animate({'bottom': '0'}, {
         duration: 1000, 
         complete: function() {
-            $('.wave').animate({bottom: 100}, {
+            $('.boat').animate({bottom: 10}, {
                 duration: 1000, 
                 complete: loop});
         }});
     }
         loop();
-
 });
+
+
+//MAKE A SOUND PLAY ON EACH VERSE. ONE FOR EACH NOTE. WHEN YOU DO THE WAVE MAKE IT PLAY A CHORD. 

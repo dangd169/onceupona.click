@@ -18,7 +18,6 @@ body{
     width: 80%;
     color: #504330;
     background-color: #f0dfc3;
-
 }
 
 p {
@@ -27,13 +26,52 @@ p {
 
 }
 
-.wave {
+.footer
+{ 
     position: absolute;
-    margin-left: 50px;
-    width: 80%;
-    height: 20px;
-    background-color: #aecbd9;
+    bottom: 0; 
+    left: 0;
+}
+
+#wave
+{ 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+
     z-index: 1000;
+}
+
+.boat
+{ 
+    position: absolute;
+    bottom: 0; 
+    right: 50;
+}
+
+#danny
+{ 
+    position: absolute; 
+    bottom: 0; 
+    right: 50;
+
+    z-index: 800;
+}
+
+.waves
+{ 
+    position: absolute;
+    bottom: 10; 
+    left: 0;
+}
+
+#wave1
+{ 
+    position: absolute; 
+    bottom: 10; 
+    left: 0;
+
+    z-index: 700;
 }
 
 @media only screen 
@@ -57,7 +95,7 @@ padding-left: 100px;
 
 .wave {
     position: absolute;
-    width: 90%;
+    width: 80%;
     height: 20px;
 }
 
