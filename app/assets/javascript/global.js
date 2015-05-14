@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+    var audio = new Audio("ukulele.mp3");
+audio.play();
+
      $("#Option1").click(function(){
         $("#Option1").cycle('next');
     });
